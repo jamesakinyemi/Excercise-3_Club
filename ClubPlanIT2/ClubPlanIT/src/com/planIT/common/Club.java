@@ -39,36 +39,36 @@ public class Club
         memberList.add(new Player("Fern", "Towns", "M", "04/05/2001", "Nigerian", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("William", "Gonzo", "F", "05/06/2002", "British", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Jenny", "Sung", "F", "12/12/1990", "British", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
-        memberList.add(new Player("Martin", "James", "M", "05/05/1975", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
-        memberList.add(new Player("Hasan", "Sung", "F", "12/12/1991", "British", new Address("222","Jameson ST","Rochester","Kent","RM23FR","UK")));
+        memberList.add(new Player("Martin", "James", "M", "05/05/1992", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
+        memberList.add(new Player("Hasan", "Sung", "F", "12/12/199", "British", new Address("222","Jameson ST","Rochester","Kent","RM23FR","UK")));
         memberList.add(new Player("Thomas", "Cat", "F", "08/09/1991", "British", new Address("15A"," ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Christy", "Sung", "M", "12/12/1991", "British", new Address("56","lyon ST","Wembley","Middlesex","HA22JG","UK")));
         memberList.add(new Player("Micky", "Mouse", "F", "01/12/1981", "British", new Address("37","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Micky", "White", "F", "01/12/1994", "British", new Address("124","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Minni", "Mouse", "F", "01/12/1999", "British", new Address("125","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Minnie", "White", "F", "01/12/1991", "British", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
-        memberList.add(new Player("Nicky", "White", "M", "01/12/1971", "British", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
+        memberList.add(new Player("Nicky", "White", "M", "01/12/1988", "British", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Rocky", "Moore", "M", "01/12/1991", "British", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Vinn", "Joyce", "F", "01/12/1991", "British", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Jas", "Pal", "M", "10/12/1980", "Indian", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
-        memberList.add(new Player("Leon", "James", "M", "05/05/1972", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
+        memberList.add(new Player("Leon", "James", "M", "05/05/19", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Kevin", "Durant", "M", "05/05/1996", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Kevin", "Love", "M", "05/05/1999", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Jimmy", "Butler", "M", "05/05/1994", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
-        memberList.add(new Player("Maya", "Moore", "F", "05/05/1990", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
+        memberList.add(new Player("Maya", "Moore", "F", "05/05/199", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Cynthia", "Cooper", "F", "05/05/1994", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Lauren", "Jackson", "F", "05/05/1985", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Paul", "George", "M", "05/05/1981", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Chris", "Paul", "M", "05/05/1994", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Laura", "Jane", "F", "05/05/1995", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Pauline", "George", "F", "05/05/1981", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
-        memberList.add(new Player("Christy", "Smith", "F", "05/05/1962", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));     
+        memberList.add(new Player("Christy", "Smith", "F", "05/05/1982", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));     
         
       //ArrayList comprising member attributes and associated address attributes for Coach - line1, line2, city, state, postcode, country
         
-        memberList.add(new Coach("Max", "Bond", "M", "22/01/1998", "Dutch", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
+        memberList.add(new Coach("Max", "Bond", "M", "22/01/2004", "Dutch", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Coach("Pete", "Jones", "M", "23/02/1999", "Spanish", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
-        memberList.add(new Coach("Gail", "Lama", "F", "24/05/2000", "Argentine", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
+        memberList.add(new Coach("Gail", "Lama", "F", "24/05/2005", "Argentine", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Coach("Dave", "Reed", "M", "25/02/2002", "Brazilian", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Coach("Susan", "Franks", "F", "27/02/2003", "Mexican", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));           
         System.out.println("FirstName LastName Gender");
