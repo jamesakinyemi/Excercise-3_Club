@@ -40,7 +40,7 @@ public class Club
         memberList.add(new Player("William", "Gonzo", "F", "05/06/2002", "British", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Jenny", "Sung", "F", "12/12/1990", "British", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Martin", "James", "M", "05/05/1992", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
-        memberList.add(new Player("Hasan", "Sung", "F", "12/12/199", "British", new Address("222","Jameson ST","Rochester","Kent","RM23FR","UK")));
+        memberList.add(new Player("Hasan", "Sung", "F", "12/12/1999", "British", new Address("222","Jameson ST","Rochester","Kent","RM23FR","UK")));
         memberList.add(new Player("Thomas", "Cat", "F", "08/09/1991", "British", new Address("15A"," ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Christy", "Sung", "M", "12/12/1991", "British", new Address("56","lyon ST","Wembley","Middlesex","HA22JG","UK")));
         memberList.add(new Player("Micky", "Mouse", "F", "01/12/1981", "British", new Address("37","Main ST","Dartford","Kent","DA23FR","UK")));
@@ -51,11 +51,11 @@ public class Club
         memberList.add(new Player("Rocky", "Moore", "M", "01/12/1991", "British", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Vinn", "Joyce", "F", "01/12/1991", "British", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Jas", "Pal", "M", "10/12/1980", "Indian", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
-        memberList.add(new Player("Leon", "James", "M", "05/05/19", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
+        memberList.add(new Player("Leon", "James", "M", "05/05/1997", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Kevin", "Durant", "M", "05/05/1996", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Kevin", "Love", "M", "05/05/1999", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Jimmy", "Butler", "M", "05/05/1994", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
-        memberList.add(new Player("Maya", "Moore", "F", "05/05/199", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
+        memberList.add(new Player("Maya", "Moore", "F", "05/05/1992", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Cynthia", "Cooper", "F", "05/05/1994", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Lauren", "Jackson", "F", "05/05/1985", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
         memberList.add(new Player("Paul", "George", "M", "05/05/1981", "New Zealand", new Address("123","Main ST","Dartford","Kent","DA23FR","UK")));
@@ -100,12 +100,17 @@ public class Club
     		System.out.print("Do you want to create a Team?:  Y(T) or N(F) ");
     		String ansCreateTeam=input.next();
     		
-    		if(util.convertToBoolean(ansCreateTeam)) {
+    		if(util.convertToBoolean(ansCreateTeam)) 
+    		{
     			newTeam = club.createTeam();
-    		}else {
+    		}else 
+    		{
     			if(!ansCreateTeam.equalsIgnoreCase("F") && !ansCreateTeam.equalsIgnoreCase("N")) {
         			System.out.println("Invalid Input");
        
+    			}else {
+    				System.out.println("Thank you for using our Team creator App");
+    				System.exit(0);
     			}
     		}
     		
@@ -137,6 +142,7 @@ public class Club
     			}else {
     				//club.printMemberList(memberList);
     				main(args);
+    			
     			}
     		}
         
@@ -163,7 +169,7 @@ public class Club
     	Scanner input=new Scanner(System.in);
     	
 		System.out.print("Input Team Name: ");
-		String tName=input.next();
+		String tName=input.nextLine();
 		
 		System.out.print("\nInput Age Group Low: ");
 		int ageGrpLow=input.nextInt();
@@ -324,6 +330,7 @@ public class Club
 		System.out.println("Our member list contains.....");
 		for(Member m : members) {
 			System.out.println("\n|" + m.getFirstName() + " " + m.getLastName() +"| Gender - "+ m.getGender() +" | Dob - "+ m.getDob() +" | nationality - " + m.getnationality());
+		
 		}
 	}	
 	
